@@ -1,0 +1,44 @@
+body{
+    background-image:url(school.jpg) ;
+    
+
+}
+form{
+    border: 3px solid;
+    margin-left: 440px;
+    margin-top: 150px;
+    width: 350px;
+    background-color: lightslategray;
+    height: 300px;
+
+
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+}
+#luname{
+    padding-left: 30px;
+}
+#lpwd{
+    padding-left: 30px;
+}
+#uname{
+    border: 2px solid;
+}
+#pwd{
+    margin-left: 11px;
+    border: 2px solid;
+}
+#but{
+    padding: 12px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 20px;
+    
+    border-radius: 8px;
+    
+    background-color: aqua;
+   
+}

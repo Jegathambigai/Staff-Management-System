@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="style3.css">
+        <script type="text/javascript">
+            function validate(){
+                var un=document.getElementById("uname").value;
+                var pd=document.getElementById("pwd").value;
+            if(un=="admin"&&pd=="123"){
+                return true;
+            }    
+            else{
+                alert("Invalid Username or Password");
+                return false;
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="admin.html" >
+        <h1>LOGIN</h1>
+        <div class="un">
+        <label for="uname" id="luname">User Nmae:
+            <input type="text" name="uname" id="uname"  required>
+        </label></div><br>
+        <div class="p"></div>
+        <label for="pwd" id="lpwd">Password:
+            <input type="password" name="pwd" id="pwd"  required >
+        </label>
+    </div>
+        <div class="but">
+            <input type="submit" id="but"value="LOGIN" onclick="return validate()">
+        </div>
+</form>
+    </body>
+</html>
